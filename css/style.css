@@ -1,0 +1,196 @@
+body{
+    background-color: #fff;
+    margin: 0;
+}
+
+.header{
+    width: 998px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header_logo_container {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.header_logo_image_i{
+    margin-top: 2px;
+}
+.header_logo_name_h1{
+    margin-top: 26px;
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 37px;
+    font-weight: bold;
+    color: #424242;
+}
+.header_row_names {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-around;
+}
+.header_row_names_a{
+    text-decoration: none;
+    font-size: 15px;
+    color: #424242;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.promo_block{
+    width: 100%;
+    height: 590px;
+    background-image: url("../images/main-pic.jpg");
+}
+.promo_block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+.promo_block_h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 48px;
+}
+.promo_block_p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: bold;
+    font-size: 30px;
+}
+.promo_block_button{
+    width: 330px;
+    height: 70px;
+    background-color: #f9cd54;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 23px;
+    border: none;
+    font-weight: bold;
+}
+
+
+
+.body_container{
+    width: 998px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.body_container_about_us {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.body_container_h1{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
+.body_container_p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.container_elements {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin-top: 50px;
+}
+.facebook {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.facebook_h1{
+    font-size: 22px;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.facebook_p{
+    font-size: 13px;
+    color: #5c5c5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.landing {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.landing_h1{
+    font-size: 22px;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.landing_p{
+    font-size: 13px;
+    color: #5c5c5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+.ads {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+    justify-content: flex-start;
+}
+.ads_h1{
+    font-size: 22px;
+    color: #424242;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.ads_p{
+    font-size: 13px;
+    color: #5c5c5c;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 67px;
+    background-color: #515151;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.footer_p{
+    font-size: 14px;
+    color: #cecece;
+    font-weight: normal;
+    margin-right: 229px;
+}
